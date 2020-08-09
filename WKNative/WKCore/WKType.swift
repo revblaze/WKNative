@@ -12,10 +12,12 @@ enum WKType {
     case local
     case web
     
+    /*
     var content: String {
         switch self {
         case .local: return
         }
     }
+    */
     
 }

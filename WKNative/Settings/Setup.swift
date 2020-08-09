@@ -11,7 +11,21 @@ struct Setup {
     
     static let debug = true
     
-    static let content = WKType.local
-    //static
+    // MARK: Core Setup
+    // App Name
+    static let name = "My App"
     
+    // MARK: Window Settings
+    // Top Window Bar (Visible or Hidden)
+    static let topBar = false
+    
+    
+    // MARK: WebApp Setup
+    static let content = WKType.local
+    //static let url =
+    
+    
+    // MARK: WebView Setup
+    static let swipeNavigation = false
+    static let airPlay = true
 }

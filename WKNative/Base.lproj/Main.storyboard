@@ -718,14 +718,46 @@
                                     <wkPreferences key="preferences"/>
                                 </wkWebViewConfiguration>
                             </wkWebView>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="btx-sP-zaZ" userLabel="Top Bar Title">
+                                <rect key="frame" x="78" y="248" width="324" height="22"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="22" id="H6v-2k-vlK"/>
+                                </constraints>
+                                <textFieldCell key="cell" lineBreakMode="clipping" id="Tle-gx-5Cd">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="E2i-mR-dXf" userLabel="Movable Window">
+                                <rect key="frame" x="78" y="248" width="404" height="22"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="22" id="lt6-3w-FGn"/>
+                                </constraints>
+                                <textFieldCell key="cell" lineBreakMode="clipping" alignment="center" id="6Tp-Bv-hAA">
+                                    <font key="font" usesAppearanceFont="YES"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
                         </subviews>
                         <constraints>
                             <constraint firstAttribute="bottom" secondItem="nkk-Ri-34T" secondAttribute="bottom" id="5Mx-S1-gmQ"/>
+                            <constraint firstItem="E2i-mR-dXf" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" id="8ux-d4-eUP"/>
                             <constraint firstItem="nkk-Ri-34T" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" id="ED1-In-XiI"/>
+                            <constraint firstAttribute="trailing" secondItem="E2i-mR-dXf" secondAttribute="trailing" id="LUQ-AO-GP6"/>
+                            <constraint firstItem="btx-sP-zaZ" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" id="S4i-98-JMz"/>
+                            <constraint firstItem="btx-sP-zaZ" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" constant="80" id="TyE-hM-s1X"/>
+                            <constraint firstAttribute="trailing" secondItem="btx-sP-zaZ" secondAttribute="trailing" constant="80" id="YaC-hS-5FE"/>
+                            <constraint firstItem="E2i-mR-dXf" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" constant="80" id="ZM7-z1-S3y"/>
                             <constraint firstAttribute="trailing" secondItem="nkk-Ri-34T" secondAttribute="trailing" id="Zss-0d-LsV"/>
                             <constraint firstItem="nkk-Ri-34T" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" id="otR-ux-jeg"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="titleBar" destination="btx-sP-zaZ" id="YRP-M7-tNV"/>
+                        <outlet property="webView" destination="nkk-Ri-34T" id="GJ9-3A-I2K"/>
+                    </connections>
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>

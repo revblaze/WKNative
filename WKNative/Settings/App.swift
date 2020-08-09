@@ -13,4 +13,10 @@ struct App {
     
     static let url = "https://"
     
+    
+    
+    // MARK:- Setup References
+    static let name = Setup.name
+    static let topBar = !Setup.topBar
+    
 }

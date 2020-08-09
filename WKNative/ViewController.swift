@@ -10,6 +10,12 @@ import WebKit
 
 class ViewController: NSViewController, WKUIDelegate, WKNavigationDelegate {
 
+    @IBOutlet weak var webView: WKWebView!                  // Main WebView
+    @IBOutlet weak var titleBar: NSTextField!               // Main Window Title
+    
+    @IBOutlet weak var topConstraint: NSLayoutConstraint!   // Top Window Constraint
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
