@@ -19,6 +19,7 @@
 		C2A734AC24E0A72700E2771C /* Debug.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A734AB24E0A72700E2771C /* Debug.swift */; };
 		C2A734AF24E0A8BB00E2771C /* WKType.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A734AE24E0A8BB00E2771C /* WKType.swift */; };
 		C2A734B124E0A8D800E2771C /* WKManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A734B024E0A8D800E2771C /* WKManager.swift */; };
+		C2A734B324E0B7E200E2771C /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A734B224E0B7E200E2771C /* Client.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		C2A734AB24E0A72700E2771C /* Debug.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Debug.swift; sourceTree = "<group>"; };
 		C2A734AE24E0A8BB00E2771C /* WKType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WKType.swift; sourceTree = "<group>"; };
 		C2A734B024E0A8D800E2771C /* WKManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WKManager.swift; sourceTree = "<group>"; };
+		C2A734B224E0B7E200E2771C /* Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				C2A734A124E0A37100E2771C /* App.swift */,
+				C2A734B224E0B7E200E2771C /* Client.swift */,
 				C2A734A824E0A63B00E2771C /* Setup.swift */,
 				C2A734A324E0A3BC00E2771C /* Settings.swift */,
 			);
@@ -192,6 +195,7 @@
 				C2A7349124E0A15F00E2771C /* ViewController.swift in Sources */,
 				C2A734A724E0A45B00E2771C /* Extensions.swift in Sources */,
 				C2A734B124E0A8D800E2771C /* WKManager.swift in Sources */,
+				C2A734B324E0B7E200E2771C /* Client.swift in Sources */,
 				C2A734A224E0A37100E2771C /* App.swift in Sources */,
 				C2A734A024E0A32A00E2771C /* WindowController.swift in Sources */,
 				C2A7348F24E0A15F00E2771C /* AppDelegate.swift in Sources */,
